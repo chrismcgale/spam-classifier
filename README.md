@@ -44,7 +44,7 @@ Replace 'spam.train.group_x.txt' with your input files.
 
     2. Run ensemble model. The two methods available  are: score 'average' and 'voting'.
 
-    ```spark-submit --driver-memory 2g --class ca.uwaterloo.cs451.a5.ApplyEnsembleSpamClassifier \ target/assignments-1.0.jar --input spam.test.qrels.txt \ --output cs451-bigdatateach-a5-test-fusion-average --model cs451-bigdatateach-a5-model-fusion --method average```
+    ```spark-submit --driver-memory 2g --class cwm.ApplyEnsembleSpamClassifier \ target/assignments-1.0.jar --input spam.test.qrels.txt \ --output -est-fusion-average --model model-fusion --method average```
 
 ## My Results ##
 
